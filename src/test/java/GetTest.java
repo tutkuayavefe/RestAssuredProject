@@ -33,6 +33,8 @@ public class GetTest {
 		.then()
 			.statusCode(200)
 			.body("data.id[0]", equalTo(7));
+		
+		
 
 	}
 }
