@@ -14,18 +14,23 @@ public class DataDrivenExample {
 		public Object [][] dataToPost(){
 			Object [][] data = new Object [2][3];
 			
+//			
+//			data[0][0] = "Albert";
+//			data[0][1] = "A";
+//			data[0][2] = 2;
+//			
+//			
+//			data[1][0] = "John";
+//			data[1][1] = "J";
+//			data[1][2] = 1;
+//			
+//			
+//			return data;
 			
-			data[0][0] = "Albert";
-			data[0][1] = "A";
-			data[0][2] = 2;
-			
-			
-			data[1][0] = "John";
-			data[1][1] = "J";
-			data[1][2] = 1;
-			
-			
-			return data;
+			return new Object [][] {
+				{"Henry", "H", 1},
+				{"Joe","J",2}
+			};
 					
 	}
 	
