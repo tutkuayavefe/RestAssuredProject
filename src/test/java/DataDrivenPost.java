@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 import io.restassured.http.ContentType;
 
-public class DataDrivenExample {
+public class DataDrivenPost {
 
 	
 	@DataProvider(name = "DataToPost")
